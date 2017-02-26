@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Image Filters!</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script> -->
+<script src="js/SimpleImage.js"></script>
+<h1>Upload Images & Have a look on  the Image Filters</h1>
+<canvas id="can">
+</canvas>
+<p>
+<h2>Upload Image</h2>
+  <input type="file" multiple="false" accept="image/*" value="Choose File" id="img" onchange="uploadImage()">
+</p>
+<h2>Apply or Choose Filter</h2>
+<p>
+  <input type="button" value="Grayscale" id="gray" onclick="doGrayscale()">
+  <input type="button" value="Redscale" id="red" onclick="doRedscale()">
+  <input type="button" value="Red Hue" id="red" onclick="doRedhue()">
+  <input type="button" value="It's different, Try It!" id="rc" onclick="doRc()">
+  <input type="button" value="Rainbow Effect" id="rainbow" onclick="doRainbow()">
+  <input type="button" value="Blur" id="blur" onclick="doBlur()">
+  <input type="button" value="Apply Border" onclick="addBorders()">
+</p>
+<p>
+  <input type="button" value="Reset Image" id="rset" onclick="doResetImage()">
+</p>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
