@@ -1,0 +1,28 @@
+h1{
+  background-color:FireBrick;
+  text-align:center;
+  font-family:"ComicSansMS";
+  text-shadow:10px 5px 5px 2px;
+  color:white;
+  margin:20px;
+}
+h2{
+  text-align:center;
+  font-family:"ComicSansMS";
+  color:purple;
+  margin:20px;
+}
+body{
+  background-color:YellowGreen;
+  text-align:center;
+}
+canvas{
+  width:360pt;
+  height:240pt;
+  margin:5px;
+  border:2px solid LightGrey;
+  border-radius:10px;
+}
+p{
+  text-align:center;
+}
